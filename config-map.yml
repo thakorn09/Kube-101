@@ -10,6 +10,7 @@ data:
       server_name_;
 
       location / {
-        return 200 "Hello Yiem"
+        default_type application/json;
+        return 200 "Hello Yiem";
       }
     }
